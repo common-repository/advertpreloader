@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advert Preloader Documentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">AdvertPreloader</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">About plugin</a></li>
+                        <li><a href="#about">Usage Guide</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+        <div class="container" style="padding-top:70px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <h1>About the plugin</h1>
+                    <div class="well">
+                        AdvertLoader is a plugin designed to increase your earnings by using adverts which will be 
+                        shown to users just before all other content loads. The plugin can also be used to notify 
+                        users about some important information before showing the page content.                        <br><br>
+                        <h3>How does it work?</h3>
+                        The plugin is fully configurable and can be set to appear on posts, pages or any other type 
+                        of entry for which you activate the preloader. Before users can see the content of a page 
+                        (texts, pictures, video) the plugin displays a message stating that the content is currently 
+                        loading, providing you with an option to put an advert, a picture, or a piece of text just 
+                        below the message. You can define almost all parameters regarding the look of the preloader 
+                        (from the loading animation, the duration of the loading to the various ways the preloader 
+                        can be shown).
+                        <br><br>
+                        The demo can be seen here: http://ivanmaricic.from.hr/moje-misli-moji-mah-glupost/
+                        In the demo example, the preloader is set to display a button which will reveal the content (upon clicking on it), 
+                        but the button itself will only appear ten (you can change that!) seconds after visitors open the page.
+                        <br><br>
+                        <h3>In which situations can the preloader be used?</h3>
+                        <ul>
+                            <li>
+                                To display ads on premium content pages! By using this method, you’ll make users 
+                                see the advert for a certain time period before they can see the content of the page. 
+                            </li>
+                            <li>
+                                When loading a video. You can inform users that the video is being loaded, while 
+                                showing them an advert or an important message at the same time.
+                            </li>
+                            <li>
+                                To show the terms of service or protect users from inappropriate content. If your 
+                                page features adult content you can set the preloader to display a ten second message 
+                                which will inform potential visitors that the site is intended for a 18+ audience, 
+                                asking them to click on the continue button in order to view the content.
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <h1>Usage guide</h1>
+                    <div class="well">
+                        <h3>1. Installation</h3>
+                        Installation is very simple, just unpack downloaded archive file, and upload plugin directory into wp-content/plugins.
+                        After plugin is uploaded login into wp-admin, and activate plugin from Plugins -> Installed plugins (http://yoursite.com/wp-admin/plugins.php)
+                        <br><br>
+                        
+                        <h3>2. Wordpress configuration and options for plugin</h3>
+                        After successful installation and activation of the plugin, the icon for configuration and customizations will appear on the bottom left side of the menu in the WP dashboard. Click on AdvertLoader Config to open configuration page.
+
+                        <strong>When you open the settings you will see options for plugin like on bottom image.</strong>
+
+                        <img class="img-rounded" src="http://ivanmaricic.from.hr/wp-content/uploads/2014/07/advertloader-admin-helper-1024x731.jpg" alt="advertloader-admin-helper" style="width:100%;"/></a>
+
+                        <strong>The plugin is very easy to use but we will pass one by one field to make sure you understand the options which plugin contains:</strong>
+                        <br><br>
+                        <strong>1.</strong> In the left field enter time in seconds during which the visitor sees the content loaded in the preloader. On the right menu, choose whether to view the content automatically after the expiry of the time or visitor have to click on a button to reveal the content.
+                        <br><br>
+                        <strong>2.</strong> Choose where to show preloader.
+                        <br>
+                        If you choose the first option (recommended), preloader will appear only on the content page (like a single page), but if you choose the second option, preloader will appear on all other pages that contain a summary of the contents (eg. category page, archive, homepage etc.).
+                        <br><br>
+                        <strong>3.</strong> Custom text that is displayed while running out of time that we set ourselves on first option.
+                        <br><br>
+                        <strong>4.</strong> Custom text that is shown after expiration time of preloader.
+                        <br><br>
+                        <strong>5.</strong> Custom text in the button which display the content (only if selected option to display button for discovering content).
+                        <br><br>
+                        <strong>6.</strong> Preloader content (Your ads or banner, image, customized HTML code of your choice, etc.).
+                        <br><br>
+                        <strong>7.</strong> Optionally select an progress animation that best fits your website. Feel free to experiment!
+                        <br><br>
+                        <strong>8.</strong> Select whether the preloader appear only on posts or just the pages or on all posts and pages.
+                        <br>
+                        <em>If you choose the last option "Only on selected posts and pages" you have to check "Show Preloader" checkbox under "Edit Post" form. The new meta-box will appear in Editor where you choose "Yes" to show preloader or "No" to hide preloader for certain posts. If you don't see the meta-box in the "Edit Post" page, click on the button "Screen Options" that is located on the top-right of Wordpress administration and check "AdvertPreloader options" to be shown on screen.</em>
+                        <br><br>
+                        <strong>9.</strong> "Save Changes" and see the results.
+                        <br><br>
+                        <em>That's it. Your preloader is now ready and active!</em>
+                        Enjoy!
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
